@@ -7,9 +7,8 @@
 
 ## Features
 * **Difference with your personal best** - CHSplit remembers your previous runs of songs, compares your current run with your personal best and shows you the difference in each section.
-* **Automatic splitting** - CHSplit reads the song info and sections and splits fully automatically based on your playthrough. It also separates splits based on the song's speed, difficulty and chosen modifiers.
+* **Everything is automatic** - CHSplit reads the song info and sections and splits fully automatically based on your selected song in-game and your playthrough. You don't have to manually search for anything! It also separates splits based on the song's speed, difficulty and chosen modifiers.
 * **No need to overwrite any Clone Hero files** - CHSplit automatically detects an instance of Clone Hero and reads the values directly from the game.
-* **Backwards compatibility** - Any CHSplit version will be compatible with any Clone Hero version (starting with v.23.2.2).
 * **Many new features soon!** - CHSplit is still early in development with a lot of planned features. You can track the development progress on the public [Trello page](https://trello.com/b/bgwuqQQ4/chsplit).
 
 ## Options
@@ -39,7 +38,7 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 *A: As of the v0.2 release, CHLauncher does **not** work with CHSplit. However it is currently my top priority to make CHLauncher compatible with CHSplit at the moment.*
 
 **Q: Where do I report bugs?**<br>
-*A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports.*
+*A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports. Please attach your latest log file in your report if you're able to.*
 
 **Q: Is feature *XYZ* planned?**<br>
 *A: You can find all planned features and their development progress on the public [Trello page](https://trello.com/b/bgwuqQQ4/chsplit). If you'd like to suggest any features you can use the **Feature request** template in the [issues tab](https://github.com/Tornith/CHSplit/issues) (Please avoid duplicates)*
