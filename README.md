@@ -1,4 +1,4 @@
-![CHSplit](https://github.com/Tornith/CHSplit/blob/master/public/chslogofull.png?raw=true)<br>
+![CHSplit](https://github.com/Tornith/CHSplit/blob/master/logo.png?raw=true)<br>
 ## A tool to assist with score grinding in Clone Hero
 
 # !!! IMPORTANT: The current version of CHSplit does *not* work with CHLauncher !!!
@@ -52,9 +52,6 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 
 **Q: Is CHSplit going to be released for x86, Mac and Linux in the future?**<br>
 *A: Yes, I plan to release CHSplit for all of those.*
-
-**Q: Can I modify the source code of CHSplit?**<br>
-*A: Yes, it is an open-source app, feel free to modify the app to your desire. Keep in mind that I will not help you in any way with your modifications or explain the code to you.*
 
 **Q: It's not working!**<br>
 *A: Please report your bugs and issues here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Be as much descriptive as possible.*
