@@ -40,6 +40,9 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 **Q: Where do I report bugs?**<br>
 *A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports. Please attach your latest log file in your report if you're able to.*
 
+**Q: My game is lagging whenever I have CHSplit open. What's up with that?**<br>
+*A: If you're using a dual monitor setup with different refresh rates, please either make sure to run CHSplit on your higher refresh rate monitor or try **disabling animations** and enabling **always on top** in the settings. CHSplit is rendered using your GPU and there is an ancient bug with Windows where the higher refresh rate monitor gets limited to the lower refresh rate if there is something being rendered on the other monitor.*
+
 **Q: Is feature *XYZ* planned?**<br>
 *A: You can find all planned features and their development progress on the public [Trello page](https://trello.com/b/bgwuqQQ4/chsplit). If you'd like to suggest any features you can use the **Feature request** template in the [issues tab](https://github.com/Tornith/CHSplit/issues) (Please avoid duplicates)*
 
@@ -50,7 +53,7 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 *A: CHSplit is compatible with every major release of Clone Hero starting from v23.2.2.*
 
 **Q: Is CHSplit going to be released for x86, Mac and Linux in the future?**<br>
-*A: Yes, I plan to release CHSplit for all of those.*
+*A: Yes, I plan to release CHSplit for all of those in the future.*
 
 **Q: It's not working!**<br>
 *A: Please report your bugs and issues here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Be as much descriptive as possible.*
