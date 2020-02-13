@@ -40,7 +40,7 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 **Q: Where do I report bugs?**<br>
 *A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports. Please attach your latest log file in your report if you're able to.*
 
-**Q: When I try to window capture the CHSplit window it's just pure black. What do I do?**
+**Q: When I try to window capture the CHSplit window it's just pure black. What do I do?**<br>
 *A: The issue is sadly on Microsoft's and Google's side. Since I made CHSplit in Electron it is rendered using Chromium which bypasses the Windows GDI. Because of that OBS has no way of capturing what's happening on the window. There is a fix though, but you have to do it yourself. Right-click the CHSplit executable and go to properties. There navigate to the 'Compatibility' tab and check the 'Run this program in compatibility mode for:' box and set it to 'Windows 8'. This should resolve the issue, although beware, it might impact the programs visual performance.*
 
 **Q: My game is lagging whenever I have CHSplit open. What's up with that?**<br>
