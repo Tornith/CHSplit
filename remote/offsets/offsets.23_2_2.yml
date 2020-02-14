@@ -1,7 +1,7 @@
 game_version: "23_2_2"
 game_label: "v23.2.2"
 file_category: "Clone Hero"
-file_version: 2
+file_version: 3
 values:
     score:
         base_dll: UnityPlayer
@@ -59,18 +59,18 @@ values:
 
     instrument:
         base_dll: UnityPlayer
-        base_offset: 0x0154D838
-        offsets: [0x40, 0x6A0, 0x98, 0x18, 0x1D0, 0x58]
+        base_offset: 0x0155C8D8
+        offsets: [0x128, 0x8, 0x80, 0x30, 0x10, 0x20, 0x58]
         var_type: b
 
     difficulty:
         base_dll: UnityPlayer
-        base_offset: 0x0154D838
-        offsets: [0x40, 0x6A0, 0x98, 0x18, 0x1D0, 0x59]
+        base_offset: 0x0155C8D8
+        offsets: [0x128, 0x8, 0x80, 0x30, 0x10, 0x20, 0x59]
         var_type: b
 
     modifiers:
         base_dll: UnityPlayer
-        base_offset: 0x0154D838
-        offsets: [0x40, 0x6A0, 0x98, 0x18, 0x1D0, 0x64]
+        base_offset: 0x0155C8D8
+        offsets: [0x128, 0x8, 0x80, 0x30, 0x10, 0x20, 0x64]
         var_type: i
