@@ -46,6 +46,9 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 **Q: My game is lagging whenever I have CHSplit open. What's up with that?**<br>
 *A: If you're using a dual monitor setup with different refresh rates, please either make sure to run CHSplit on your higher refresh rate monitor or try **disabling animations** and enabling **always on top** in the settings. CHSplit is rendered using your GPU and there is an ancient bug with Windows where the higher refresh rate monitor gets limited to the lower refresh rate if there is something being rendered on the other monitor.*
 
+**Q: Where are my split files saved?**<br>
+*A: They're stored in the `splits` folder within the directory of your `CHSplit.exe` file. They're separated per song, speed and checksum of the notes.chart or notes.mid file. Since it's saved seperately you don't have to worry about losing your splits when updating.*
+
 **Q: Is feature *XYZ* planned?**<br>
 *A: You can find all planned features and their development progress on the public [Trello page](https://trello.com/b/bgwuqQQ4/chsplit). If you'd like to suggest any features you can use the **Feature request** template in the [issues tab](https://github.com/Tornith/CHSplit/issues) (Please avoid duplicates)*
 
