@@ -1,3 +1,13 @@
+### v0.2.1 - Hotfix
+    - Added - Backend for detecting new offset file versions.
+    - Added - The API port number now gets dynamically retrieved from a list of available ports, prefering the port number 58989.
+    - Changed - Only one instance of CHSplit is now allowed.
+    - Fix - Fixed song modifiers, difficulties and instruments being randomly chosen.
+    - Fix - Fixed CHSplit not loading in the sections of RB converts.
+    - Fix - Fixed the option *Always on Top* not working properly with fullscreen.
+    - Fix - Fixed the backend sometimes not shutting down properly.
+    - Fix - Fixed when exiting to menu from practice the program would assume a song has started instead.
+
 ### v0.2 - Settings and QoL improvements
 	- Added - Added an options menu to personalize CHSplit:
 		- Always on top - Makes the CHS' window stay above any other window.
