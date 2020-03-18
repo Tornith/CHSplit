@@ -41,7 +41,7 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
 *A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports. Please attach your latest log file in your report if you're able to.*
 
 **Q: When I try to window capture the CHSplit window on OBS it's just pure black. What do I do?**<br>
-*A: This issue is resolved since the OBS 25.0 update, please make sure you're running the most up to date version.
+*A: This issue is now resolved since the OBS 25.0 update, please make sure you're running the most up to date version.*
 
 **Q: My game is lagging whenever I have CHSplit open. What's up with that?**<br>
 *A: If you're using a dual monitor setup with different refresh rates, please either make sure to run CHSplit on your higher refresh rate monitor or try **disabling animations** and enabling **always on top** in the settings. CHSplit is rendered using your GPU and there is an ancient bug with Windows where the higher refresh rate monitor gets limited to the lower refresh rate if there is something being rendered on the other monitor.*
