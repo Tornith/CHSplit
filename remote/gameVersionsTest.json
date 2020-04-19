@@ -1,0 +1,32 @@
+[
+  {
+    "header":"Clone Hero",
+    "options":[
+      {
+        "label":"v23.2.2",
+        "value":"23_2_2"
+      }
+    ]
+  },
+  {
+    "header":"Custom",
+    "options":[
+      {
+        "label":"paope",
+        "value":"paope",
+        "min_version": "0.2",
+        "max_version": "0.3"
+      },
+      {
+        "label":"ae",
+        "value":"ae",
+        "min_version": "0.2.5"
+      },
+      {
+        "label":"g",
+        "value":"g",
+        "max_version": "0.2.3"
+      }
+    ]
+  }
+]
