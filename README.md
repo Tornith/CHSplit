@@ -1,8 +1,6 @@
 ![CHSplit](https://github.com/Tornith/CHSplit/blob/master/logo.png?raw=true)<br>
 ## A tool to assist with score grinding in Clone Hero
 
-# !!! IMPORTANT: The current version of CHSplit does *not* work with CHLauncher !!!
-
 **CHSplit** allows you to easily track your score progress throughout runs of your songs in **Clone Hero**. Inspired by [LiveSplit](https://livesplit.org/).
 
 ## Features
@@ -34,8 +32,8 @@ CHSplit is a **fully portable** application, with the exception of the `offset` 
     1. Without internet connection, please download the corresponding `offset` files **beforehand** from the [`remote/offset`](https://github.com/Tornith/CHSplit/tree/master/remote/offsets) folder above and place them into the *offset* folder within the directory of your `CHSplit.exe` file.
     
 ## FAQ
-**Q: Does it work with CHLauncher?**<br>
-*A: As of the v0.2 release, CHLauncher does **not** work with CHSplit. However it is currently my top priority to make CHLauncher compatible with CHSplit at the moment.*
+**Q: Does it work with CHLoader?**<br>
+*A: As of the v0.2.2 release, CHSplit is compatible with CHLoader*
 
 **Q: Where do I report bugs?**<br>
 *A: If you find any sort of bugs, please report them here on GitHub in the [issues tab](https://github.com/Tornith/CHSplit/issues). Please search for your issue first to avoid any duplicate reports. Please attach your latest log file in your report if you're able to.*
