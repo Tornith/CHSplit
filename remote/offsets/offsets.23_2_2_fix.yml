@@ -1,0 +1,82 @@
+game_version: "23_2_2_fix"
+game_label: "v23.2.2 - Fix"
+file_category: "Clone Hero"
+file_version: 1
+values:
+    score:
+        base_dll: UnityPlayer
+        base_offset: 0x01516D28
+        offsets: [0x0, 0x10, 0x30, 0x38, 0x28, 0x18, 0x18, 0x104]
+        var_type: i
+
+    position:
+        base_dll: UnityPlayer
+        base_offset: 0x01516D28
+        offsets: [0x0, 0x10, 0x30, 0x38, 0x28, 0x18, 0x20, 0xE0]
+        var_type: i
+
+    time:
+        base_dll: UnityPlayer
+        base_offset: 0x01516D28
+        offsets: [0x0, 0x10, 0x30, 0x38, 0x28, 0x18, 0x20, 0xC8]
+        var_type: d
+
+    length:
+        base_dll: UnityPlayer
+        base_offset: 0x01516D28
+        offsets: [0x0, 0x10, 0x30, 0x38, 0x28, 0x18, 0x20, 0xA8]
+        var_type: d
+
+    path:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x20, 0x18, 0x14]
+        var_type: s
+
+    in_menu:
+        base_dll: UnityPlayer
+        base_offset: 0x01569A48
+        offsets: NULL
+        var_type: b
+
+    in_game:
+        base_dll: UnityPlayer
+        base_offset: 0x01513261
+        offsets: NULL
+        var_type: b
+
+    in_practice:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x2AE]
+        var_type: b
+
+    speed:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x1B8, 0xD0]
+        var_type: i
+
+    instrument:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x30, 0x10, 0x20, 0x58]
+        var_type: b
+
+    difficulty:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x30, 0x10, 0x20, 0x59]
+        var_type: b
+
+    modifiers:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x120, 0x0, 0x0, 0x80, 0x30, 0x10, 0x20, 0x64]
+        var_type: i
+        
+    scene:
+        base_dll: UnityPlayer
+        base_offset: 0x0155C8D8
+        offsets: [0x8, 0x0, 0xB8, 0x8, 0x8, 0x18, 0x40]
+        var_type: a
