@@ -1,7 +1,7 @@
 game_version: "23_2_2_fix"
 game_label: "v23.2.2 - Fix"
 file_category: "Clone Hero"
-file_version: 1
+file_version: 2
 values:
     score:
         base_dll: UnityPlayer
@@ -78,5 +78,5 @@ values:
     scene:
         base_dll: UnityPlayer
         base_offset: 0x0155C8D8
-        offsets: [0x8, 0x0, 0xB8, 0x8, 0x8, 0x18, 0x40]
+        offsets: [0x48, 0xB0, 0x0, 0x0, 0x10, 0xA0, 0x18, 0x40]
         var_type: a
